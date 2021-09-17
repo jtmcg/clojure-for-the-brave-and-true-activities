@@ -1,0 +1,55 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; nREPL Connection was closed
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"0.8.3"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.26.0"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉clojure-brave-and-true-activities.core꞉> 
+; Jack-in done.
+clj꞉clojure-brave-and-true-activities.core꞉> 
+; Evaluating file: core.clj
+nil
+clj꞉clojure-brave-and-true-activities.chapter-3-exercises.core꞉> (str "Hello" ", " "world")
+                                                                 
+"Hello, world"
+clj꞉clojure-brave-and-true-activities.chapter-3-exercises.core꞉> (string-function)
+; Syntax error compiling at (.calva/output-window/output.calva-repl:27:66).
+; Unable to resolve symbol: string-function in this context
+clj꞉clojure-brave-and-true-activities.chapter-3-exercises.core꞉> 
+; Evaluating file: core.clj
+#'clojure-brave-and-true-activities.chapter-3-exercises.core/string-function
+clj꞉clojure-brave-and-true-activities.chapter-3-exercises.core꞉> (string-function)
+"Hello, world"
+clj꞉clojure-brave-and-true-activities.chapter-3-exercises.core꞉> 
+; Evaluating file: core.clj
+"Hello, world"
+clj꞉clojure-brave-and-true-activities.chapter-3-exercises.core꞉> 
+; Evaluating file: core.clj
+[1 2 3 4 5]
+clj꞉clojure-brave-and-true-activities.chapter-3-exercises.core꞉> 
+; Evaluating file: core.clj
+("a" "b" "c")
+clj꞉clojure-brave-and-true-activities.chapter-3-exercises.core꞉> 
+; Evaluating file: core.clj
+{:second "b", :first "a"}
+clj꞉clojure-brave-and-true-activities.chapter-3-exercises.core꞉> 
+; Evaluating file: core.clj
+#{1 2}
+clj꞉clojure-brave-and-true-activities.chapter-3-exercises.core꞉> 
+; Evaluating file: core.clj
+#'clojure-brave-and-true-activities.chapter-3-exercises.core/add-100
+clj꞉clojure-brave-and-true-activities.chapter-3-exercises.core꞉> (add-100 10)
+110
+clj꞉clojure-brave-and-true-activities.chapter-3-exercises.core꞉> 
